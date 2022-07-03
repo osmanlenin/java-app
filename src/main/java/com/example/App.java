@@ -20,10 +20,9 @@ public class App {
         Logger log = LoggerFactory.getLogger(App.class);
 
         try {
-            log.info("I am a Java app");
-            log.info("Just logging stuff");
-
-            throw new NullPointerException("Ooh noes! Something bad happened");
+            log.info("Aplicacion corriendo java");
+            
+            throw new NullPointerException("Algo mal ha ocurrido");
         }
         catch (Exception e) {
             log.error("Error occurred!", e);
